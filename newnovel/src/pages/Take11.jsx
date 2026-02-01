@@ -28,7 +28,7 @@ export const TypewriterText = ({ text = "", speed = 50 }) => {
 };
 
 
-export const FirstTake = () => {
+export const Take11 = () => {
   const [entering, setEntering] = useState(true);
   const navigate = useNavigate();
 
@@ -42,18 +42,16 @@ export const FirstTake = () => {
 
   return (
     <div
-      className={`flex bg-indigo-900 h-screen w-screen items-center justify-center
+      className={`flex bg-indigo-900 h-screen w-screen items-center justify-center relative
       transition-opacity duration-700
       ${entering ? "opacity-0" : "opacity-100"}`}
     >
-      <div className="h-[70%] w-[60%] bg-blue-950 flex flex-row justify-between">
-        <img className="h-[85%] w-[27%] self-end" src="/Kokichi/kokichi_basic.webp" />
-        <div className="bg-violet-300 h-[30%] w-[40%] rounded-2xl justify-center self-end mb-5">
-            <p className="text-2xl h-[30%] w-[55%] bg-violet-400 rounded-2xl align-middle self-center m-1.5 p-1.0">Kokichi Ouma</p>
-            <TypewriterText className="m-2" text='pipipipipopopo' speed={80}/>
-            <button onClick={() => navigate('/SecondTake')} className="h">*</button>
+      <div className="h-[70%] w-[60%] bg-blue-950 flex flex-row justify-end items-center">
+        <div className="bg-blue-300 h-[30%] w-[50%] rounded-2xl absolute bottom-30 left-1/2 -translate-x-1/2 p-3">
+            <p className="text-2xl h-[25%] w-[30%] bg-blue-400 rounded-2xl align-middle self-center m-1.5 p-2">Shuichi Saihara</p>
+            <TypewriterText className="p-4" text='I knocked on the door multiple times, but received no answer.' speed={50}/>
+            <button onClick={() => navigate('/')} className="h-[15%] w-[10%] bg-blue-400 rounded-xl absolute bottom-4 right-4">Next</button>
         </div>
-        <img className="h-[95%] w-[28%] self-end" src="/Shuichi/shuichi_basic.webp" />
       </div>
     </div>
   );

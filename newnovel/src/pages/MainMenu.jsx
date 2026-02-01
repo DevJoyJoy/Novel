@@ -8,7 +8,7 @@ export const MainMenu = () => {
     useEffect(() => {
         if (leaving) {
             const timer = setTimeout(() => {
-                navigate("/FirstTake");
+                navigate("/Take1");
             }, 700);
 
             return () => clearTimeout(timer);
@@ -22,7 +22,8 @@ export const MainMenu = () => {
                 <div className="h-[70%] w-[60%] bg-blue-950 flex flex-row justify-between">
                     <img className="h-[85%] w-[27%] self-end" src="/Kokichi/kokichi_basic.webp" alt="" />
                     <div className="flex flex-col">
-                        <p className="text-amber-50 text-6xl font-[Bungee]">Novel</p>
+                        <p className="text-amber-50 text-6xl font-[Bungee]">Affection and</p>
+                        <p className="text-amber-50 text-6xl font-[Bungee] self-center">bandages</p>
                         <br />
                         <br />
                         <br />
