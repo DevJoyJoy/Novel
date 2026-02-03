@@ -50,6 +50,10 @@ import { Take46 } from './pages/Take46'
 import { Take47 } from './pages/Take47'
 import { Take48 } from './pages/Take48'
 import { Take49 } from './pages/Take49'
+import { Take50 } from './pages/Take50'
+import { Take51 } from './pages/Take51'
+import { Take52 } from './pages/Take52'
+import { Take53 } from './pages/Take53'
 import { Finale } from './pages/Finale'
 
 function App() {
@@ -108,6 +112,10 @@ function App() {
           <Route path='/Take47' element={<Take47/>}></Route>
           <Route path='/Take48' element={<Take48/>}></Route>
           <Route path='/Take49' element={<Take49/>}></Route>
+          <Route path='/Take50' element={<Take50/>}></Route>
+          <Route path='/Take51' element={<Take51/>}></Route>
+          <Route path='/Take52' element={<Take52/>}></Route>
+          <Route path='/Take53' element={<Take53/>}></Route>
           <Route path='/Finale' element={<Finale/>}></Route>
         </Routes>
       </BrowserRouter>
