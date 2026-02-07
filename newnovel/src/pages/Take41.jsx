@@ -47,7 +47,7 @@ export const Take41 = () => {
       ${entering ? "opacity-0" : "opacity-100"}`}
     >
       <div className="h-[70%] w-[60%] bg-blue-950 flex flex-row justify-start items-center">
-        <img className="h-[88%] self-end pl-4" src="/Kokichi/kokichi_cry.webp" alt="" />
+        <img className="h-[88%] self-end pl-4" src="/Kokichi/kokichi_sad.webp" alt="" />
         <div className="bg-violet-300 h-[30%] w-[50%] rounded-2xl absolute bottom-30 left-1/2 -translate-x-1/2 p-3">
             <p className="text-2xl h-[30%] w-[30%] bg-violet-400 rounded-2xl align-middle self-center m-1.5 p-2">Kokichi Ouma</p>
             <TypewriterText className="p-4" text='School, my parents, everything it´s bringing me into my limit and I can´t think about how to solve this or how to feel better with anything.' speed={50}/>

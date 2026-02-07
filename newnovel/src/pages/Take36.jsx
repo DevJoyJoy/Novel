@@ -54,7 +54,7 @@ export const Take36 = () => {
             <TypewriterText className="p-4" text='Oh...' speed={50}/>
             <button onClick={() => navigate('/Take37')} className="h-[15%] w-[10%] bg-blue-400 rounded-xl absolute bottom-4 right-4">Next</button>
         </div>
-        <img className="h-[95%] self-end " src="/Shuichi/shuichi_pity.webp" alt="" />
+        <img className="h-[95%] self-end " src="/Shuichi/shuichi_think.webp" alt="" />
       </div>
     </div>
   );

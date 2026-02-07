@@ -46,12 +46,12 @@ export const Take1 = () => {
       transition-opacity duration-700
       ${entering ? "opacity-0" : "opacity-100"}`}
     >
-      <div className="h-[70%] w-[60%] bg-blue-950 flex flex-row justify-end items-center">
-        <div className="bg-blue-300 h-[30%] w-[50%] rounded-2xl absolute bottom-30 left-1/2 -translate-x-1/2 p-3">
-            <p className="text-2xl h-[25%] w-[30%] bg-blue-400 rounded-2xl absolute top-2 right-2 m-1.5 p-1">Shuichi Saihara</p>
+      <div className="h-[90%] w-[90%] bg-blue-950 flex flex-row justify-end items-center">
+        <div className="bg-blue-300 h-[40%] w-[80%] rounded-2xl absolute bottom-15 left-1/2 -translate-x-1/2 p-3">
+            <p className="text-3xl h-[20%] w-[30%] bg-blue-400 rounded-2xl absolute top-2 right-2 m-1.5 p-1">Shuichi Saihara</p>
             <br />
             <br />
-            <TypewriterText className="p-4 absolute top-2 right-2" text='Kokichi, are you home?' speed={50}/>
+            <TypewriterText className="p-5 absolute top-2 right-2" text='Kokichi, are you home?' speed={50}/>
             <button onClick={() => navigate('/Take2')} className="h-[15%] w-[10%] bg-blue-400 rounded-xl absolute bottom-4 right-4">Next</button>
         </div>
         <img className="h-[95%] self-end " src="/Shuichi/shuichi_basic.webp" alt="" />

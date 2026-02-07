@@ -46,13 +46,13 @@ export const Take3 = () => {
       transition-opacity duration-700
       ${entering ? "opacity-0" : "opacity-100"}`}
     >
-      <div className="h-[70%] w-[60%] bg-blue-950 flex flex-row justify-end items-center">
-        <div className="bg-blue-300 h-[38%] w-[50%] rounded-2xl absolute bottom-30 left-1/2 -translate-x-1/2 p-3">
-            <p className="text-2xl h-[20%] w-[30%] bg-blue-400 rounded-2xl absolute top-2 right-2 m-1.5 p-1">Shuichi Saihara</p>
+      <div className="h-[90%] w-[90%] bg-blue-950 flex flex-row justify-end items-center">
+        <div className="bg-blue-300 h-[40%] w-[80%] rounded-2xl absolute bottom-15 left-1/2 -translate-x-1/2 p-3">
+            <p className="text-3xl h-[20%] w-[30%] bg-blue-400 rounded-2xl absolute top-2 right-2 m-1.5 p-1">Shuichi Saihara</p>
             <br />
             <br />
-            <TypewriterText className="p-4" text='Since I had no response, I entered in silence while looking around, I didn´t know if his parents were around (they don´t really like me). The house was completely silent, looked like it was empty, but Kokichi must be here, he never gets out at night.' speed={50}/>
-            <button onClick={() => navigate('/Take4')} className="h-[12%] w-[9%] bg-blue-400 rounded-xl absolute bottom-4 right-4">Next</button>
+            <TypewriterText className="p-5" text='Since I had no response, I entered in silence while looking around, I didn´t know if his parents were around (they don´t really like me). The house was completely silent, looked like it was empty, but Kokichi must be here, he never gets out at night.' speed={50}/>
+            <button onClick={() => navigate('/Take4')} className="h-[15%] w-[10%] bg-blue-400 rounded-xl absolute bottom-4 right-4">Next</button>
         </div>
       </div>
     </div>

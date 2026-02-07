@@ -50,7 +50,7 @@ export const Take40 = () => {
         <img className="h-[88%] self-end pl-4" src="/Kokichi/kokichi_cry.webp" alt="" />
         <div className="bg-violet-300 h-[30%] w-[50%] rounded-2xl absolute bottom-30 left-1/2 -translate-x-1/2 p-3">
             <p className="text-2xl h-[30%] w-[30%] bg-violet-400 rounded-2xl align-middle self-center m-1.5 p-2">Kokichi Ouma</p>
-            <TypewriterText className="p-4" text='...Thank you, really. I just feel like everything is horrible, this feeling that everything is horrible it´s...it´s consuming, Shuichi. ' speed={50}/>
+            <TypewriterText className="p-4" text='I just feel like everything is horrible, this feeling that everything is horrible it´s...it´s consuming, Shuichi. ' speed={50}/>
             <button onClick={() => navigate('/Take41')} className="h-[15%] w-[10%] bg-violet-400 rounded-xl absolute bottom-4 right-4">Next</button>
         </div>
       </div>
