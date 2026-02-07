@@ -46,13 +46,13 @@ export const Take17 = () => {
       transition-opacity duration-700
       ${entering ? "opacity-0" : "opacity-100"}`}
     >
-      <div className="h-[70%] w-[60%] bg-blue-950 flex flex-row justify-end items-center">
-        <div className="bg-blue-300 h-[42%] w-[50%] rounded-2xl absolute bottom-30 left-1/2 -translate-x-1/2 p-3">
-            <p className="text-2xl h-[18%] w-[30%] bg-blue-400 rounded-2xl absolute top-2 right-2 m-1.5 p-1">Shuichi Saihara</p>
+      <div className="h-[90%] w-[90%] bg-blue-950 flex flex-row justify-end items-center">
+        <div className="bg-blue-300 h-[40%] w-[80%] rounded-2xl absolute bottom-15 left-1/2 -translate-x-1/2 p-3">
+            <p className="text-2xl h-[20%] w-[30%] bg-blue-400 rounded-2xl absolute top-2 right-2 m-1.5 p-1">Shuichi Saihara</p>
             <br />
             <br />
-            <TypewriterText className="p-4" text='I never imagined fiding him like this, so...bad. He never told me about this kind of thing, but he usually tells me when he´s not well and needs help, which makes me confused, is there something else that he may be hiding from me?' speed={50}/>
-            <button onClick={() => navigate('/Take18')} className="h-[12%] w-[10%] bg-blue-400 rounded-xl absolute bottom-4 right-4">Next</button>
+            <TypewriterText className="p-5" text='I never imagined fiding him like this, so...bad. He never told me about this kind of thing, but he usually tells me when he´s not well and needs help, which makes me confused, is there something else that he may be hiding from me?' speed={50}/>
+            <button onClick={() => navigate('/Take18')} className="h-[15%] w-[10%] bg-blue-400 rounded-xl absolute bottom-4 right-4">Next</button>
         </div>
       </div>
     </div>
