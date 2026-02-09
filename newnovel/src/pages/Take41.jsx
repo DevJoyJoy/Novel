@@ -48,9 +48,9 @@ export const Take41 = () => {
     >
       <div className="h-[70%] w-[60%] bg-blue-950 flex flex-row justify-start items-center">
         <img className="h-[88%] self-end pl-4" src="/Kokichi/kokichi_sad.webp" alt="" />
-        <div className="bg-violet-300 h-[30%] w-[50%] rounded-2xl absolute bottom-30 left-1/2 -translate-x-1/2 p-3">
-            <p className="text-2xl h-[30%] w-[30%] bg-violet-400 rounded-2xl align-middle self-center m-1.5 p-2">Kokichi Ouma</p>
-            <TypewriterText className="p-4" text='School, my parents, everything it´s bringing me into my limit and I can´t think about how to solve this or how to feel better with anything.' speed={50}/>
+        <div className="bg-violet-300 h-[40%] w-[80%] rounded-2xl absolute bottom-15 left-1/2 -translate-x-1/2 p-3">
+            <p className="text-3xl h-[20%] w-[30%] bg-violet-400 rounded-2xl align-middle self-center m-1.5 p-2">Kokichi Ouma</p>
+            <TypewriterText className="p-5" text='School, my parents, everything it´s bringing me into my limit and I can´t think about how to solve this or how to feel better with anything.' speed={50}/>
             <button onClick={() => navigate('/Take42')} className="h-[15%] w-[10%] bg-violet-400 rounded-xl absolute bottom-4 right-4">Next</button>
         </div>
       </div>

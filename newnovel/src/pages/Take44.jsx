@@ -46,12 +46,12 @@ export const Take44 = () => {
       transition-opacity duration-700
       ${entering ? "opacity-0" : "opacity-100"}`}
     >
-      <div className="h-[70%] w-[60%] bg-blue-950 flex flex-row justify-end items-center">
-        <div className="bg-blue-300 h-[35%] w-[50%] rounded-2xl absolute bottom-30 left-1/2 -translate-x-1/2 p-3">
-            <p className="text-2xl h-[20%] w-[30%] bg-blue-400 rounded-2xl absolute top-2 right-2 m-1.5 p-1">Shuichi Saihara</p>
+      <div className="h-[90%] w-[90%] bg-blue-950 flex flex-row justify-end items-center">
+        <div className="bg-blue-300 h-[40%] w-[80%] rounded-2xl absolute bottom-15 left-1/2 -translate-x-1/2 p-3">
+            <p className="text-3xl h-[20%] w-[30%] bg-blue-400 rounded-2xl absolute top-2 right-2 m-1.5 p-1">Shuichi Saihara</p>
             <br />
             <br />
-            <TypewriterText className="p-4" text='I feel like an horrible boyfriend, we started dating just some months ago, but we´ve been friend for a really long time, I never thought that he could feel so bad when I´m not around.' speed={50}/>
+            <TypewriterText className="p-5" text='I feel like an horrible boyfriend, we started dating just some months ago, but we´ve been friend for a really long time, I never thought that he could feel so bad when I´m not around.' speed={50}/>
             <button onClick={() => navigate('/Take45')} className="h-[15%] w-[10%] bg-blue-400 rounded-xl absolute bottom-4 right-4">Next</button>
         </div>
       </div>

@@ -46,13 +46,13 @@ export const Take38 = () => {
       transition-opacity duration-700
       ${entering ? "opacity-0" : "opacity-100"}`}
     >
-      <div className="h-[70%] w-[60%] bg-blue-950 flex flex-row justify-end items-center">
-        <div className="bg-blue-300 h-[40%] w-[50%] rounded-2xl absolute bottom-30 left-1/2 -translate-x-1/2 p-3">
-            <p className="text-2xl h-[18%] w-[30%] bg-blue-400 rounded-2xl absolute top-2 right-2 m-1.5 p-1">Shuichi Saihara</p>
+      <div className="h-[90%] w-[90%] bg-blue-950 flex flex-row justify-end items-center">
+        <div className="bg-blue-300 h-[40%] w-[80%] rounded-2xl absolute bottom-15 left-1/2 -translate-x-1/2 p-3">
+            <p className="text-2xl h-[20%] w-[30%] bg-blue-400 rounded-2xl absolute top-2 right-2 m-1.5 p-1">Shuichi Saihara</p>
             <br />
             <br />
-            <TypewriterText className="p-4" text='Look, it´s not much, but I promise that I will always be by your side, Kokichi, you can trust me to talk about everything that hurts you, I´ll help you as much as I can. If you feel confortable, everytime you want to...you know...cut yourself again...' speed={50}/>
-            <button onClick={() => navigate('/Take39')} className="h-[12%] w-[10%] bg-blue-400 rounded-xl absolute bottom-4 right-4">Next</button>
+            <TypewriterText className="p-5" text='Look, it´s not much, but I promise that I will always be by your side, Kokichi, you can trust me to talk about everything that hurts you, I´ll help you as much as I can. If you feel confortable, everytime you want to...you know...cut yourself again...' speed={50}/>
+            <button onClick={() => navigate('/Take39')} className="h-[15%] w-[10%] bg-blue-400 rounded-xl absolute bottom-4 right-4">Next</button>
         </div>
         <img className="h-[95%] self-end " src="/Shuichi/shuichi_reliefe.webp" alt="" />
       </div>
