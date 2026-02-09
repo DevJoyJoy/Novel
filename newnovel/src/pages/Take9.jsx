@@ -51,7 +51,7 @@ export const Take9 = () => {
             <p className="text-3xl h-[20%] w-[30%] bg-blue-400 rounded-2xl absolute top-2 right-2 m-1.5 p-1">Shuichi Saihara</p>
             <br />
             <br />
-            <TypewriterText className="p-5" text='I sat by his side on the cold bathroom floor, I thought it would be better to not touch him without knowing if it would make him unconfortable first.' speed={50}/>
+            <TypewriterText className="p-5" text="I sat by his side on the cold bathroom floor, I thought it would be better to not touch him without knowing if it would make him unconfortable first." speed={50}/>
             <button onClick={() => navigate('/Take10')} className="h-[15%] w-[10%] bg-blue-400 rounded-xl absolute bottom-4 right-4">Next</button>
         </div>
       </div>

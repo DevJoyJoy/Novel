@@ -51,7 +51,7 @@ export const Take25 = () => {
             <p className="text-3xl h-[20%] w-[30%] bg-blue-400 rounded-2xl absolute top-2 right-2 m-1.5 p-1">Shuichi Saihara</p>
             <br />
             <br />
-            <TypewriterText className="p-5" text='With the bathroom back to normal, I went to the laundry to leave his pajamas in a mix of products to get the blood stain off, I hope it works thought, I never did it before but there´s a first time for everything.' speed={50}/>
+            <TypewriterText className="p-5" text="With the bathroom back to normal, I went to the laundry to leave his pajamas in a mix of products to get the blood stain off. Hopefully it works, I never did it before but there's a first time for everything." speed={50}/>
             <button onClick={() => navigate('/Take26')} className="h-[15%] w-[10%] bg-blue-400 rounded-xl absolute bottom-4 right-4">Next</button>
         </div>
       </div>

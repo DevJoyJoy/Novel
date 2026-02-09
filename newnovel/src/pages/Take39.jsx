@@ -51,7 +51,7 @@ export const Take39 = () => {
             <p className="text-3xl h-[20%] w-[30%] bg-blue-400 rounded-2xl absolute top-2 right-2 m-1.5 p-1">Shuichi Saihara</p>
             <br />
             <br />
-            <TypewriterText className="p-5" text='You can call me and I´ll be here, I´ll come running, I promise to help you going thought this moment with everything you need, okay?' speed={50}/>
+            <TypewriterText className="p-5" text="You can call me and I'll be here, I'll come running, I promise to help you going thought this moment with everything you need, okay?" speed={50}/>
             <button onClick={() => navigate('/Take40')} className="h-[15%] w-[10%] bg-blue-400 rounded-xl absolute bottom-4 right-4">Next</button>
         </div>
         <img className="h-[95%] self-end " src="/Shuichi/shuichi_reliefe.webp" alt="" />
