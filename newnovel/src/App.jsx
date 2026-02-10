@@ -1,6 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { MainMenu } from './pages/MainMenu'
+import { Warnings } from './pages/Warnings'
 import { Take1 } from './pages/Take1'
 import { Take2 } from './pages/Take2'
 import { Take3 } from './pages/Take3'
@@ -63,6 +64,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<MainMenu/>}></Route>
+          <Route path='/Warnings' element={<Warnings/>}></Route>
           <Route path='/Take1' element={<Take1/>}></Route>
           <Route path='/Take2' element={<Take2/>}></Route>
           <Route path='/Take3' element={<Take3/>}></Route>
